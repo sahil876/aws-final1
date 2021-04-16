@@ -1,0 +1,86 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\page\index1.css">
+</head>
+<body style = "background-color:grey;">
+<style>
+   h1{text-align:center;}
+   .center{
+	    margin-left :auto;
+	    margin-right:auto;
+	   }
+</style>
+
+<h1>EMPLOYEE DATABASE</h1>
+
+
+
+
+<body>
+    <form action="/addemp", method="POST",entype = "multipart/form-data">
+<table border="0" class = "center">
+<tr>
+      <td>Employee ID:</td>
+</tr>
+<tr>	
+      <td>
+        <input type="text" name="emp_id" maxlength="45" size="30" />
+      </td>
+     
+</tr>
+<tr>
+     <td>First Name</td>
+</tr>
+<tr>
+	<td>
+        <input type="text" name="first_name" maxlength="90" size="30" />
+      </td>
+</tr>
+<tr>
+      <td>Last Name</td>
+</tr>
+     <tr>
+<td>
+        <input type="text" name="last_name" maxlength="90" size="30" />
+      </td>
+        
+</tr>
+<tr>
+      <td>Primary Skills</td>
+</tr>
+<tr>
+        <td>
+
+        <input type="text" name="pri_skill" maxlength="90" size="30" />
+      </td>
+
+</tr>
+<tr>
+      <td>Location</td>
+</tr>
+<tr>
+   <td>
+
+        <input type="text" name="location" maxlength="90" size="30" />
+      </td>
+       
+</tr>
+     <td>
+        <input type="submit" value="addemp" align="center">
+      </td>
+    </tr>
+
+   
+    
+  </table>
+</form>
+
+<h4> The details are:</h4>
+     {{var}}
+</table>
+</body>
+</html>
+
+
+                        
+             
