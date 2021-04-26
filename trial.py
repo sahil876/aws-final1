@@ -3,11 +3,11 @@ import pymysql
 from pymysql import connections
 
 conn = pymysql.connect(
-        host= 'emp.csha5r9cq91f.us-east-2.rds.amazonaws.com', 
-        port = 3306,
-        user = 'blobduck', 
-        password = 'blobduck',
-        db = 'emp',
+        host= '', #endpoint of RDS
+        port = 3306, #port number
+        user = '', #database name 
+        password = '',#database pass
+        db = '',#database name
         )
 
 
